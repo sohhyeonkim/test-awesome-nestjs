@@ -4,6 +4,4 @@ export * from './argument-out-of-range.exception';
 export * from './conflict.exception';
 export * from './exception.base';
 export * from './exception.codes';
-export * from './file-not-image.exception';
 export * from './not-found.exception';
-export * from './user-not-found.exception';

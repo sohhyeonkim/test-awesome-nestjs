@@ -192,18 +192,18 @@ module.exports = {
     '@typescript-eslint/semi': ['error', 'always'],
     '@typescript-eslint/naming-convention': [
       'error',
-      {
-        selector: 'default',
-        format: ['camelCase', 'PascalCase', 'snake_case', 'UPPER_CASE'],
-        filter: {
-          regex: '^_.*$',
-          match: false,
-        },
-      },
-      {
-        selector: 'variable',
-        format: ['camelCase', 'UPPER_CASE'],
-      },
+      // {
+      //   selector: 'default',
+      //   format: ['camelCase', 'PascalCase', 'snake_case', 'UPPER_CASE'],
+      //   filter: {
+      //     regex: '^.*$',
+      //     match: false,
+      //   },
+      // },
+      // {
+      //   selector: 'variable',
+      //   format: ['camelCase', 'UPPER_CASE'],
+      // },
       {
         selector: 'interface',
         format: ['PascalCase'],
@@ -213,12 +213,11 @@ module.exports = {
         selector: 'typeLike',
         format: ['PascalCase'],
       },
-      {
-        selector: 'memberLike',
-        modifiers: ['private'],
-        format: ['camelCase'],
-        leadingUnderscore: 'forbid',
-      },
+      // {
+      //   selector: 'memberLike',
+      //   modifiers: ['private'],
+      //   format: ['camelCase'],
+      // },
       {
         selector: 'variable',
         types: ['boolean'],
