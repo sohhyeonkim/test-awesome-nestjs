@@ -14,7 +14,7 @@ import { ApiTags } from '@nestjs/swagger';
 import { RoleType } from '../../constants';
 import { Auth, AuthUser, UUIDParam } from '../../decorators';
 import { UseLanguageInterceptor } from '../../interceptors/language-interceptor.service';
-import { UserEntity } from '../user/user.entity';
+import { UserEntity } from '../user-old/user.entity';
 import { CreatePostDto } from './dtos/create-post.dto';
 import type { PostDto } from './dtos/post.dto';
 import { PostPageOptionsDto } from './dtos/post-page-options.dto';
