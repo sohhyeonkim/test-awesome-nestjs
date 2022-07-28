@@ -6,8 +6,8 @@ import type { RoleType } from '../../constants';
 import { TokenType } from '../../constants';
 import { UserNotFoundException } from '../../exceptions';
 import { ApiConfigService } from '../../shared/services/api-config.service';
-import type { UserEntity } from '../user/user.entity';
-import { UserService } from '../user/user.service';
+import type { UserEntity } from '../user-old/user.entity';
+import { UserService } from '../user-old/user.service';
 import { TokenPayloadDto } from './dto/TokenPayloadDto';
 import type { UserLoginDto } from './dto/UserLoginDto';
 
