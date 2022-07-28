@@ -5,7 +5,7 @@ import type {
 } from '@nestjs/common';
 import { Injectable } from '@nestjs/common';
 
-import type { UserEntity } from '../modules/user/user.entity';
+import type { UserEntity } from '../modules/user-old/user.entity';
 import { ContextProvider } from '../providers';
 
 @Injectable()
